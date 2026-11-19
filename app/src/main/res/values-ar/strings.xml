@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">درع الحماية</string>
+    <string name="accessibility_service_label">مراقب نوافذ درع الحماية</string>
+    <string name="accessibility_service_description">يراقب التطبيق النشط في المقدمة لتطبيق قائمة التطبيقات المستثناة ورصد النوافذ المحمية محلياً فقط. لا يتم إرسال أي صورة خارج جهازك.</string>
+
+    <string name="subtitle_local_only">حماية بصرية محلية 100% على الجهاز • بدون رفع أي بيانات</string>
+    <string name="status_active">الحماية مفعّلة</string>
+    <string name="status_inactive">الحماية متوقفة</string>
+    <string name="status_paused_excluded">متوقف مؤقتاً (تطبيق مستثنى نشط)</string>
+    <string name="status_protected_window">نافذة محمية (غير قابلة للتحليل)</string>
+    <string name="main_switch_label">تفعيل الحماية على مستوى النظام</string>
+
+    <string name="section_permissions">الأذونات المطلوبة</string>
+    <string name="perm_overlay">الظهور فوق التطبيقات الأخرى</string>
+    <string name="perm_accessibility">خدمة مراقبة النوافذ (تسهيل الاستخدام)</string>
+    <string name="perm_notifications">إشعار الخدمة المستمر</string>
+    <string name="perm_battery_unrestricted">عدم تقييد البطارية في الخلفية (اختياري)</string>
+    <string name="perm_granted">ممنوح</string>
+    <string name="perm_grant_action">ضبط</string>
+
+    <string name="section_detection">إعدادات الكشف والتمويه</string>
+    <string name="sensitivity_label">حساسية الكشف: %1$d%%</string>
+    <string name="blur_intensity_label">شدة التمويه: %1$d</string>
+    <string name="toggle_images">حماية الصور</string>
+    <string name="toggle_videos">حماية الفيديو</string>
+    <string name="cat_explicit">المحتوى غير اللائق / الصريح</string>
+    <string name="cat_gender_optional">تصفية الجنس الاختيارية (عند دعم النموذج)</string>
+
+    <string name="section_performance">البطارية والأداء</string>
+    <string name="perf_mode_battery">توفير البطارية (1.5 إطار/ث)</string>
+    <string name="perf_mode_balanced">متوازن (2.5 إطار/ث)</string>
+    <string name="perf_mode_responsive">استجابة عالية (4.0 إطار/ث)</string>
+    <string name="downscale_label">دقة تقليص الالتقاط الفعلية: عرض %1$d بكسل</string>
+
+    <string name="section_exclusions">التطبيقات المستثناة (%1$d محدد)</string>
+    <string name="manage_exclusions_btn">إدارة التطبيقات المستثناة</string>
+    <string name="exclusions_dialog_title">اختر التطبيقات المستثناة من الحماية</string>
+    <string name="close_label">إغلاق</string>
+
+    <string name="section_stats">إحصائيات المعالجة وصحة النماذج</string>
+    <string name="stat_foreground_app">التطبيق النشط حالياً: %1$s</string>
+    <string name="stat_frames_and_skipped">المحللة: %1$d | المتخطاة (ثبات/تتبع): %2$d</string>
+    <string name="stat_tracks_and_latency">المموهة: %1$d | المتتبعة: %2$d | الزمن: %3$.1f ms</string>
+    <string name="stat_motion_and_governor">الحركة: %1$s | حاكم الأداء: %2$s</string>
+    <string name="stat_protected_windows">النوافذ المحمية / غير المحللة: %1$d</string>
+    <string name="stat_ram_pss">استهلاك الرام الحالي (PSS): %1$.1f ميجابايت</string>
+    <string name="stat_model_health">النماذج: %1$s</string>
+
+    <string name="notif_channel_name">خدمة درع الحماية</string>
+    <string name="notif_title">درع الحماية يعمل محلياً</string>
+    <string name="notif_text">الحماية المحلية نشطة. اضغط لإدارة الإعدادات.</string>
+</resources>

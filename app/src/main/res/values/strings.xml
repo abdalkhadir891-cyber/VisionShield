@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShieldGuard</string>
+    <string name="accessibility_service_label">ShieldGuard Window Monitor</string>
+    <string name="accessibility_service_description">Monitors active foreground apps to apply your app exclusion list and detect protected windows locally. No screen data leaves your device.</string>
+
+    <string name="subtitle_local_only">100% On-Device Visual Protection • Local Processing Only</string>
+    <string name="status_active">Protection Active</string>
+    <string name="status_inactive">Protection Inactive</string>
+    <string name="status_paused_excluded">Paused (Excluded App Active)</string>
+    <string name="status_protected_window">Protected Window (Unanalyzed)</string>
+    <string name="main_switch_label">Enable System-Wide Protection</string>
+
+    <string name="section_permissions">Required Authorizations</string>
+    <string name="perm_overlay">Display Over Other Apps</string>
+    <string name="perm_accessibility">Accessibility Window Monitor</string>
+    <string name="perm_notifications">Service Notification</string>
+    <string name="perm_battery_unrestricted">Unrestricted Background Battery (Optional)</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_grant_action">Grant</string>
+
+    <string name="section_detection">Detection &amp; Blur Controls</string>
+    <string name="sensitivity_label">Detection Sensitivity: %1$d%%</string>
+    <string name="blur_intensity_label">Blur Intensity: %1$d</string>
+    <string name="toggle_images">Protect Images</string>
+    <string name="toggle_videos">Protect Videos</string>
+    <string name="cat_explicit">Inappropriate / Explicit Content</string>
+    <string name="cat_gender_optional">Optional Gender-Specific Filter</string>
+
+    <string name="section_performance">Battery &amp; Performance</string>
+    <string name="perf_mode_battery">Battery Saver (1.5 fps)</string>
+    <string name="perf_mode_balanced">Balanced (2.5 fps)</string>
+    <string name="perf_mode_responsive">Responsive (4.0 fps)</string>
+    <string name="downscale_label">Effective Capture Downscale: %1$dpx width</string>
+
+    <string name="section_exclusions">App Exclusions (%1$d selected)</string>
+    <string name="manage_exclusions_btn">Manage Excluded Apps</string>
+    <string name="exclusions_dialog_title">Select Apps to Exclude</string>
+    <string name="close_label">Close</string>
+
+    <string name="section_stats">Processing Statistics &amp; Model Health</string>
+    <string name="stat_foreground_app">Foreground App: %1$s</string>
+    <string name="stat_frames_and_skipped">Frames Analyzed: %1$d | Skipped Idle/Predicted: %2$d</string>
+    <string name="stat_tracks_and_latency">Blurred: %1$d | Tracked: %2$d | Inference: %3$.1f ms</string>
+    <string name="stat_motion_and_governor">Motion: %1$s | Thermal/RAM Governor: %2$s</string>
+    <string name="stat_protected_windows">Protected / Inaccessible Events: %1$d</string>
+    <string name="stat_ram_pss">Current App RAM (PSS): %1$.1f MB</string>
+    <string name="stat_model_health">Models: %1$s</string>
+
+    <string name="notif_channel_name">ShieldGuard Protection Service</string>
+    <string name="notif_title">ShieldGuard is Running Locally</string>
+    <string name="notif_text">On-device protection active. Tap to manage settings.</string>
+</resources>

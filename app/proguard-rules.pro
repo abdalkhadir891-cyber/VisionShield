@@ -1,0 +1,9 @@
+-keep class org.tensorflow.lite.** { *; }
+-dontwarn org.tensorflow.lite.**
+-keep class com.google.mediapipe.** { *; }
+-keep class com.google.protobuf.** { *; }
+-dontwarn com.google.mediapipe.**
+-keep public class com.yusuf.shieldguard.service.GuardAccessibilityService
+-keep public class com.yusuf.shieldguard.service.ProtectionForegroundService
+-keepnames class kotlinx.coroutines.internal.MainDispatcherFactory {}
+-keepnames class kotlinx.coroutines.CoroutineExceptionHandler {}
